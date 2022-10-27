@@ -3,7 +3,7 @@ body {
 }
 
 header {
-    background-color: #cecec6;
+    background-color: #8990ed;
 }
 
 nav li {
@@ -36,7 +36,7 @@ p {
     position: absolute;
 }
 
-.img-header {
+#img-header {
     text-align: center;
     width: 10%;
     height: 10%;
