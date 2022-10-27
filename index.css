@@ -36,7 +36,7 @@ p {
     position: absolute;
 }
 
-#img-header {
+.imgem-header {
     text-align: center;
     margin-left: 30%;
     width: 25%;
