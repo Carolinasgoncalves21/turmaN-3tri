@@ -38,8 +38,11 @@ p {
 
 .imagem-header {
     text-align: center;
-    width: 25%;
-    height: 25%;
+}
+
+#img-header {
+    width: 10%;
+    height: 10%;
 }
 
 .texto-principal {
