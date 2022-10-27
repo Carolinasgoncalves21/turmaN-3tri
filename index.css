@@ -36,6 +36,12 @@ p {
     position: absolute;
 }
 
+.img-header {
+    text-align: center;
+    width: 10%;
+    height: 10%;
+}
+
 .texto-principal {
     margin-right: 20%; 
 }
