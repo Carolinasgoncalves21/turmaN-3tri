@@ -37,9 +37,9 @@ p {
 }
 
 #img-header {
-    text-align: center;
-    width: 10%;
-    height: 10%;
+    text-align: left;
+    width: 25%;
+    height: 25%;
 }
 
 .texto-principal {
