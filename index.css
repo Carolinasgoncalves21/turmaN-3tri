@@ -6,11 +6,15 @@ header {
     background-color: #8990ed;
 }
 
-nav li {
-    display: inline;
+nav { 
     border: yellow 5px dotted;
     padding-top: 50px;
+
 }
+
+nav li {
+    display: inline;
+    }
 
 nav a {
     color: wheat;
