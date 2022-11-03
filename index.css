@@ -8,6 +8,8 @@ header {
 
 nav li {
     display: inline;
+    border: yellow 5px dotted;
+    padding-top: 50px;
 }
 
 nav a {
