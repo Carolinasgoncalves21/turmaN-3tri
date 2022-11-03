@@ -18,6 +18,11 @@ nav a {
     text-shadow: none;
 }
 
+h1, h2, h3, p, ul, li {
+    margin: 10px;
+    padding: 10px;
+}
+
 h1 {
     color: #4a94e2;
     text-align: center;
