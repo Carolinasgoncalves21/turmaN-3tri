@@ -1,5 +1,13 @@
 body {
     background-color: #cecec6;
+    padding: 0 0px;
+    height: 300vh;
+}
+
+.caixa {
+    position: relative;
+    width: 25px;
+    margin: 0 auto;
 }
 
 header {
