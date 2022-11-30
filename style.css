@@ -1,0 +1,45 @@
+body {
+    height: 300vh;
+    background-color: black;
+}
+
+
+.exemplo {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: wheat;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;  
+}
+
+.exemplo1 {
+    background-color: blue;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+}
+
+.exemplo2 {
+    background-color: green;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.exemplo3 {
+    background-color: red;
+    position: absolute;
+}
+
+.exemplointerno {
+    position: sticky;
+    transform: translate(50%, 50%);
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background-color: gold;
+}
