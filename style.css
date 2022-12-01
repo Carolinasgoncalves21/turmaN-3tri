@@ -1,45 +1,148 @@
 body {
-    height: 300vh;
-    background-color: black;
+    background-color: #cecec6;
+    padding: 0 0px;
+    height: 400vh;
 }
 
-
-.exemplo {
-    width: 200px;
-    height: 200px;
-    line-height: 200px;
-    color: wheat;
-    text-transform: uppercase;
-    text-align: center;
-    cursor: pointer;  
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto;
+    position:sticky;
 }
 
-.exemplo1 {
-    background-color: blue;
-    position: fixed;
-    right: 10px;
-    top: 10px;
-}
-
-.exemplo2 {
-    background-color: green;
+nav {
     position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
+    top: 70px;
+    right: 0;
+}
+
+header {
+    position: sticky;
+    background: #4a94e2;
+    padding: 20px 0;
+    top: 0;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px,
+}
+
+nav a {
+    text-transform: uppercase;
+    color:#cbcbcb;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+nav a:active {
+    color: yellow;
     
 }
 
-.exemplo3 {
-    background-color: red;
-    position: absolute;
+.itens1:before {
+    content: "☘";
+    color:darkgoldenrod;
+    font-size: 50px;
 }
 
-.exemplointerno {
-    position: sticky;
-    transform: translate(50%, 50%);
-    width: 100px;
-    height: 100px;
-    line-height: 100px;
-    background-color: gold;
+.itens2:after {
+    content: "🌳";
+    font-size: 20px;
+    color: purple;
 }
+
+li:last-child {
+    color: green;
+}
+
+li:first-letter {
+    color: rebeccapurple;
+    font-size: 100px;
+}
+
+
+
+
+
+li::marker {
+    content: "\002A";
+    color: red;
+    font-size: 20px;
+       
+}
+
+h2, h3, p, ul, li {
+    padding: 5px;
+    margin: 5px;
+}
+
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    color: #4a94e2;
+    text-align: center;
+    font-size: 30px;
+    border: 5px #2169a3 dashed;
+    padding-bottom: 5px;
+    margin-right: 5px;
+}
+
+h2 {
+    color: #301ac4;
+    font-weight: bold;
+
+}
+
+p {
+    color:  #408fce;
+    font-size: 25px;
+}
+
+#imagem-principal {
+    width: 10%;
+    margin-left: 80%;
+    border: 5px dotted #2f74c8;
+    flexbox: left;
+    position: absolute;
+    z-index: -1;
+}
+
+.texto-principal {
+    margin-left: .5%;
+}
+
+.itens {
+	color: blue;
+	text-decoration: underline;
+}
+
+.rodape {
+    width: 100px;
+    opacity: 100%;
+  }
+  
+.copyright {
+      color: blue;
+      font-size: 13px;
+      margin: 20px 0 0;
+      opacity: 100%;
+  }
+
+footer {
+    text-align: center;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/002/092/160/original/elegant-gold-stars-background-free-vector.jpg"); 
+    opacity: 20%;
+    padding: 40px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+     
+}
+
+
+
+

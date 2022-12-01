@@ -1,54 +1,77 @@
 body {
-    background-color: #cecec6;
-    padding: 0 0px;
+    background-color: rgb(135, 135, 215);
     height: 300vh;
 }
 
-.caixa {
+header {
+    background-color: #cccccc;
+    padding: 20 0px;
+}
+
+.menu{
     position: relative;
-    width: 25px;
+    width: 940px;
     margin: 0 auto;
 }
 
-header {
-    background-color: #5b64e4;
+#imagem-menu {
+    width: 10%;
+    height: 10%;
+    position: relative;
+    padding-bottom: 20px;
+    top: 10px;
+    right: 5px;
 }
 
-nav { 
-    padding-top: 5px;
-    margin-bottom: 5px;
+nav {
+    position: absolute;
+    top: 20px;
+    right: 50px;
 
 }
 
 nav li {
-    display: inline;
-    }
+   display: inline;
+   margin: 0 0 0 15px;
+
+}
 
 nav a {
-    color: wheat;
-    font-size: 30px;
+    font-size: 22px;
     text-transform: uppercase;
+    color: blue;
     font-weight: bold;
+    text-shadow: none;
     text-decoration: none;
 }
 
-h1, h2, h3, p, ul, li {
-    margin: 10px;
-    padding: 10px;
-}
-
 h1 {
-    color: #4a94e2;
+    color: wheat;
     text-align: center;
-    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+    text-transform: uppercase;
 }
+
 h2 {
-    color: #301ac4;
+    color: white;
 }
+
 p {
-    color:  blue;
+    color: whitesmoke;
 
 }
+
+h1, h2, h3, p {
+     padding: 5px;
+     margin: 10px;
+
+}
+
+ul, li {
+    margin: 15px;
+
+}
+
 #imagem-principal {
     width: 10%;
     margin-left: 80%;
@@ -57,20 +80,18 @@ p {
     position: absolute;
 }
 
-.imagem-header {
-    text-align: center;
-}
-
-#img-header {
-    width: 10%;
-    height: 10%;
+.itens {
+	color:  whitesmoke;
+	text-decoration: underline;
 }
 
 .texto-principal {
-    margin-right: 20%; 
+    margin-right: 20%;
+
 }
 
-.itens {
-	color: blue;
-	text-decoration: underline;
+footer {
+    background-image: url(coding-image.png);
+    background-repeat: no-repeat;
+    background-position: 50% 0;
 }

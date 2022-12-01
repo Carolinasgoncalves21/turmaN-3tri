@@ -1,0 +1,143 @@
+body {
+  background-color: rgb(135, 135, 215);
+  height: 300vh;
+}
+
+header {
+  background-color: #cccccc;
+  padding: 20 0px;
+  position: sticky;
+  top: 0;
+  right: 0;
+}
+
+.menu{
+  position: relative;
+  width: 940px;
+  margin: 0 auto;
+}
+
+#imagem-menu {
+  width: 10%;
+  height: 10%;
+  position: relative;
+  padding-bottom: 20px;
+  top: 10px;
+  right: 5px;
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+
+}
+
+nav li {
+ display: inline;
+ margin: 0 0 0 15px;
+
+}
+
+nav a {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: blue;
+  font-weight: bold;
+  text-shadow: none;
+  text-decoration: none;
+}
+
+h1 {
+  color: wheat;
+  text-align: center;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+h2 {
+  color: white;
+}
+
+p {
+  color: whitesmoke;
+
+}
+
+h1, h2, h3, p {
+   padding: 5px;
+   margin: 10px;
+
+}
+
+ul, li {
+  margin: 15px;
+
+}
+
+nav a:visited {
+  color: navy;
+  
+}
+  .exemplo {
+    margin-top: 50px;
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    cursor: pointer;
+  }
+  
+  .exemplo1{
+    background-color: blue;
+    position: sticky;
+    right: 0;
+    top:20px;
+    z-index: -1;
+  }
+
+  
+.exemplo2 {
+  background-color: green;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1
+  
+}
+
+.exemplofinal {
+  margin-top: 20px;
+  background-color: purple;
+  position: absolute;
+  z-index: -1
+}
+
+.exemplointerno {
+  margin-top: 20px
+  position: sticky;
+  transform: translate(50%, 50%);
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  background-color: navy;
+  z-index: -1
+}
+
+footer {
+  background-color: blueviolet;
+  margin-top: 300px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  text-align: center;
+}
+
+.rodape { 
+  width: 10%;
+  height: 10%;
+  
+}
